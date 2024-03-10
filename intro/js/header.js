@@ -123,14 +123,14 @@ template.innerHTML = `
 				</a>
 			</li>
 
-			<li>
-				<a href="https://pf.kakao.com/_yTxbgb/chat" target="_blank" class="link ng-chat" >
+			<!-- <li>
+				<a href="" target="_blank" class="link ng-chat" >
 					<div class="icon ng-chat"><img src="./intro/img/quick-icon3.gif" alt="" class="ng-chat"></div>
 					<div class="text ng-chat">
 						카카오톡<br />비밀상담
 					</div>
 				</a>
-			</li>
+			</li> -->
 
 			<li>
 				<a href="./location.html" class="link">

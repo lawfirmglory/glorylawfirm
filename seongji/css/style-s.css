@@ -323,7 +323,7 @@
 .sec08 > .content_wrap > .form_wrapper .item .ipt select option{background:#92203a;}
 .sec08 > .content_wrap > .form_wrapper .item .ipt input[type=text]{width:100%;height:36px;border:0;border-bottom:1px solid #D9D9D9;background:transparent;color:#FFFFFF;font-size:24px;padding:0 10px;box-sizing:border-box;}
 .sec08 > .content_wrap > .form_wrapper .item .ipt input[type=text]::placeholder{color:transparent;font-size:20px;}
-.sec08 > .content_wrap > .form_wrapper .item .ipt textarea{width:494px;height:145px;border:1px solid #D9D9D9;background:transparent;color:#FFFFFF;font-size:16px;padding:0 10px;box-sizing:border-box;}
+.sec08 > .content_wrap > .form_wrapper .item .ipt textarea{width:494px;height:145px;border:1px solid #D9D9D9;background:transparent;color:#FFFFFF;font-size:16px;padding:10px;box-sizing:border-box;}
 .sec08 > .content_wrap > .form_wrapper .item .ipt textarea::placeholder{font-size:16px;color:#FFFFFF;}
 
 
