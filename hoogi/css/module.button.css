@@ -1,0 +1,524 @@
+@charset "utf-8"; /**
+ * button
+ */
+input.btn, button.btn {
+    overflow: visible;
+    margin: 0;
+    padding: 0;
+    border: 0 none transparent;
+    cursor: pointer;
+    background-color: transparent;
+    -webkit-appearance: none;
+}
+
+a.btn {
+    display: inline-block;
+    text-decoration: none;
+}
+
+em.btn {
+    display: inline-block;
+    font-style: normal;
+}
+
+/**
+ * button theme-a
+ */
+a.btn.theme-a:hover {
+    text-decoration: underline;
+}
+
+.btn.theme-a .text {
+    letter-spacing: -0.05em;
+    /*white-space: nowrap;*/
+    box-sizing: border-box;
+}
+
+/* button theme-a outline */
+.btn.theme-a.x-small .text {
+}
+
+.btn.theme-a.small .text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.btn.theme-a.medium .text {
+}
+
+.btn.theme-a.large .text {
+}
+
+/* button theme-a symbols */
+.btn.theme-a[class*='before-'] .text {
+}
+
+.btn.theme-a[class*='after-'] .text {
+}
+
+.btn.theme-a[class*='before-'] .text:before, .btn.theme-a[class*='after-'] .text:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 1.5em;
+    height: 1.5em;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.btn.theme-a[class*='before-'] .text:before {
+    float: left;
+    margin-right: .25em;
+}
+
+.btn.theme-a[class*='after-'] .text:after {
+    float: right;
+    margin-left: .25em;
+}
+
+.btn.theme-a.fall-01 {
+    color: #665348;
+}
+
+.btn.theme-a.rise-01 {
+    color: #2d231e;
+}
+
+.btn.theme-a.rise-02 {
+    color: #ffbe48;
+}
+
+.btn.theme-a.rise-03 {
+    color: #0a1ebe;
+}
+
+.btn.theme-a.rise-04 {
+    color: #dc0000;
+}
+
+/** 
+ * button theme-b
+ */
+.btn.theme-b .text {
+    display: block;
+    padding-right: 1em;
+    padding-left: 1em;
+    overflow: hidden;
+    letter-spacing: -0.05em;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.btn.theme-b.disabled {
+    cursor: not-allowed;
+}
+
+.btn.theme-b.x-small .text {
+    height: 1.5rem;
+    font-size: 0.875rem;
+}
+
+.btn.theme-b.medium .text:before, .btn.theme-b.medium .text:after {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.btn.theme-b.small .text {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    height: 2rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.btn.theme-b.small .text:before, .btn.theme-b.small .text:after {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.btn.theme-b.medium .text {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    height: 3rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.btn.theme-b.medium .text:before, .btn.theme-b.medium .text:after {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.btn.theme-b.large .text {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: 4rem;
+    line-height: 2rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.btn.theme-b.large .text:before, .btn.theme-b.large .text:after {
+    width: 2rem;
+    height: 2rem;
+}
+
+.btn.theme-b.x-large .text {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    height: 6rem;
+    line-height: 3rem;
+    font-size: 2rem;
+    font-weight: 500;
+    vertical-align: top;
+}
+
+.btn.theme-b.x-large .text:before, .btn.theme-b.x-large .text:after {
+    width: 3rem;
+    height: 3rem;
+}
+
+/* button theme-a type-a state */
+.btn.theme-b.type-a.fall-01 .text {
+    color: #2d231e;
+    background-color: #f2f2f2;
+    box-shadow: inset 0 0 0 1px #2d231e;
+}
+
+.btn.theme-b.type-a.fall-01:hover .text {
+    color: #ffffff;
+    background-color: #665348;
+}
+
+.btn.theme-b.type-a.fall-01:active .text {
+    color: #ffffff;
+    background-color: #56463d;
+}
+
+.btn.theme-b.type-a.fall-01.disabled .text {
+    opacity: .25;
+}
+
+.btn.theme-b.type-a.rise-01 .text {
+    color: #2d231e;
+    background-color: #ffffff;
+    box-shadow: inset 0 0 0 1px #2d231e;
+}
+
+.btn.theme-b.type-a.rise-01:hover .text {
+    color: #ffffff;
+    background-color: #6c1566;
+}
+
+.btn.theme-b.type-a.rise-01:active .text {
+    color: #ffffff;
+    background-color: #6c1566;
+}
+
+.btn.theme-b.type-a.rise-01.disabled .text {
+    opacity: .25;
+}
+
+.btn.theme-b.type-a.rise-02 .text {
+    color: #ffffff;
+    background-color: #2d231e;
+}
+
+.btn.theme-b.type-a.rise-02:hover .text {
+    color: #ffffff;
+    background-color: #574f4b;
+}
+
+.btn.theme-b.type-a.rise-02:active .text {
+    color: #ffffff;
+    background-color: #261d19;
+}
+
+.btn.theme-b.type-a.rise-02.disabled .text {
+    opacity: .25;
+}
+
+.btn.theme-b.type-a.rise-03 .text {
+    color: #ffffff;
+    background-color: #954f74;
+}
+
+.btn.theme-b.type-a.rise-03:hover .text {
+    color: #ffffff;
+    background-color: #6c1566;
+}
+
+.btn.theme-b.type-a.rise-03:active .text {
+    color: #ffffff;
+    background-color: #6c1566;
+}
+
+.btn.theme-b.type-a.rise-03 .text svg path {
+    fill: #ffffff;
+}
+
+.btn.theme-b.type-a.rise-03:hover .text svg path {
+    fill: #ffffff;
+}
+
+.btn.theme-b.type-a.rise-03.disabled .text {
+    opacity: .25;
+}
+
+.btn.theme-b.type-a.rise-04 .text {
+    color: #ffffff;
+    background-color: #dc0000;
+}
+
+.btn.theme-b.type-a.rise-04:hover .text {
+    color: #ffffff;
+    background-color: #e33333;
+}
+
+.btn.theme-b.type-a.rise-04:active .text {
+    color: #ffffff;
+    background-color: #bb0000;
+}
+
+.btn.theme-b.type-a.rise-04.disabled .text {
+    opacity: .25;
+}
+
+.btn.theme-b.type-a.rise-05 .text {
+    color: #ffffff;
+    background-color: #0a1ebe;
+}
+
+.btn.theme-b.type-a.rise-05:hover .text {
+    color: #ffffff;
+    background-color: #3b4bcb;
+}
+
+.btn.theme-b.type-a.rise-05:active .text {
+    color: #ffffff;
+    background-color: #0819a1;
+}
+
+.btn.theme-b.type-a.rise-05.disabled .text {
+    opacity: .25;
+}
+
+/* button theme-a type-b state */
+.btn.theme-b.type-b.rise-01 .text {
+    color: rgba(255,255,255, 1);
+    background-color: rgba(255,255,255, 0);
+}
+
+.btn.theme-b.type-b.rise-01:hover .text {
+    color: #000000;
+    background-color: rgba(255,255,255,1);
+    mix-blend-mode: screen;
+}
+
+.btn.theme-b.type-b.rise-01:active .text {
+    color: #000000;
+    background-color: rgba(255,255,255,1);
+    mix-blend-mode: screen;
+}
+
+.btn.theme-b.type-b.rise-01.disabled .text {
+    opacity: .25;
+}
+
+.btn.theme-b.type-b.rise-02 .text {
+    color: #000000;
+    background-color: rgba(255,255,255,1);
+    mix-blend-mode: screen;
+}
+
+.btn.theme-b.type-b.rise-02:hover .text {
+    color: #000000;
+    background-color: rgba(255,255,255,.75);
+    mix-blend-mode: screen;
+}
+
+.btn.theme-b.type-b.rise-02:active .text {
+    color: #000000;
+    background-color: rgba(255,255,255,1);
+    mix-blend-mode: screen;
+}
+
+.btn.theme-b.type-b.rise-02.disabled .text {
+    opacity: .25;
+}
+
+/* button theme-a symbols */
+.btn.theme-b[class*='after-'] .text {
+    padding-right: 0.5em;
+}
+
+.btn.theme-b[class*='before-'] .text {
+    padding-left: 0.5em;
+}
+
+.btn.theme-b[class*='before-'] .text:before, .btn.theme-b[class*='after-'] .text:after {
+    content: '';
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.btn.theme-b[class*='before-'] .text:before {
+    float: left;
+    margin-right: .5em;
+}
+
+.btn.theme-b[class*='after-'] .text:after {
+    float: right;
+    margin-left: .5em;
+}
+
+.btn.theme-b[class*='before-'].fall-01 .text:before, .btn.theme-b[class*='after-'].fall-01 .text:after {
+}
+
+.btn.theme-b[class*='before-'].fall-01:active .text:before, .btn.theme-b[class*='after-'].fall-01:active .text:after {
+}
+
+.btn.theme-b[class*='before-'].rise-01 .text:before, .btn.theme-b[class*='after-'].rise-01 .text:after {
+}
+
+.btn.theme-b[class*='before-'].rise-01:hover .text:before, .btn.theme-b[class*='after-'].rise-01:hover .text:after {
+}
+
+.btn.theme-b[class*='before-'].rise-01:active .text:before, .btn.theme-b[class*='after-'].rise-01:active .text:after {
+}
+
+.btn.theme-b[class*='before-'].rise-02 .text:before, .btn.theme-b[class*='after-'].rise-02 .text:after {
+}
+
+.btn.theme-b[class*='before-'].rise-03 .text:before, .btn.theme-b[class*='after-'].rise-03 .text:after {
+}
+
+.btn.theme-b[class*='before-'].rise-03:hover .text:before, .btn.theme-b[class*='after-'].rise-03:hover .text:after {
+}
+
+.btn.theme-b[class*='before-'].rise-03:active .text:before, .btn.theme-b[class*='after-'].rise-03:active .text:after {
+}
+
+.btn.theme-b[class*='before-'].rise-04 .text:before, .btn.theme-b[class*='after-'].rise-04 .text:after {
+}
+
+.btn.theme-b[class*='before-'].rise-05 .text:before, .btn.theme-b[class*='after-'].rise-05 .text:after {
+}
+
+/** 
+ * button symbols theme-a
+ */
+/* button symbols next */
+.btn.theme-a.before-next .text:before, .btn.theme-a.after-next .text:after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0iIzJkMjMxZSIgZD0iTTE4LjQwMyAxMEwxNyAxMS40NDRsMTIuMTk0IDEyLjU1NUwxNyAzNi41NTUgMTguNDAzIDM4IDMyIDIzLjk5OXoiLz48L3N2Zz4=);
+}
+
+/* button symbols download */
+.btn.theme-a.before-download .text:before, .btn.theme-a.after-download .text:after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0iIzJkMjMxZSIgZD0iTTIzIDEwdjIwLjk0N0wxNC40NzIgMjJsLTEuNDczIDEuNDZMMjQgMzVsMTEtMTEuNTRMMzMuNTI4IDIyIDI1IDMwLjk0N1YxMGgtMnpNOSAzMy45OTlWMzloMjkuOTk5di00Ljg3NWgtMlYzN2gtMjZ2LTMuMDAxSDl6Ii8+PC9zdmc+);
+}
+
+/* button symbols direct-right */
+.btn.theme-a.before-direct-right .text:before, .btn.theme-a.after-direct-right .text:after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0iIzJkMjMxZSIgZD0iTTI1LjQ2NSAxMGwtMS40NjQgMS40MjNMMzUuMTk0IDIzSDl2MmgyNi4xOTRMMjQuMDAxIDM2LjU3NyAyNS40NjUgMzggMzkgMjMuOTk5eiIvPjwvc3ZnPg==);
+}
+
+/* button symbols download onclick */
+.btn.theme-a.before-download.onclick:hover .text:before, .btn.theme-a.after-download.onclick:hover .text:after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTIzIDEwdjIwLjk0N0wxNC40NzIgMjJsLTEuNDczIDEuNDZMMjQgMzVsMTEtMTEuNTRMMzMuNTI4IDIyIDI1IDMwLjk0N1YxMGgtMnpNOSAzMy45OTlWMzloMjkuOTk5di00Ljg3NWgtMlYzN2gtMjZ2LTMuMDAxSDl6Ii8+PC9zdmc+);
+}
+
+/* button symbols direct-right onclick */
+.btn.theme-a.before-direct-right.onclick:hover .text:before, .btn.theme-a.after-direct-right.onclick:hover .text:after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTI1LjQ2NSAxMGwtMS40NjQgMS40MjNMMzUuMTk0IDIzSDl2MmgyNi4xOTRMMjQuMDAxIDM2LjU3NyAyNS40NjUgMzggMzkgMjMuOTk5eiIvPjwvc3ZnPg==);
+}
+
+/** 
+ * button symbols theme-b
+ */
+/* button symbols plus */
+.btn.theme-b.before-plus .text:before, .btn.theme-b.after-plus .text:after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0iIzJkMjMxZSIgZD0iTTIzIDl2MTMuOTk5SDl2MmgxNFYzOWgyVjI0Ljk5OWgxMy45OTl2LTJIMjVWOXoiLz48L3N2Zz4=);
+}
+
+.btn.theme-b.before-plus:hover .text:before, .btn.theme-b.after-plus:hover .text:after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTIzIDl2MTMuOTk5SDl2MmgxNFYzOWgyVjI0Ljk5OWgxMy45OTl2LTJIMjVWOXoiLz48L3N2Zz4=);
+}
+
+/* button symbols next */
+.btn.theme-b.before-next .text:before, .btn.theme-b.after-next .text:after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0iIzJkMjMxZSIgZD0iTTE4LjQwMyAxMEwxNyAxMS40NDRsMTIuMTk0IDEyLjU1NUwxNyAzNi41NTUgMTguNDAzIDM4IDMyIDIzLjk5OXoiLz48L3N2Zz4=);
+}
+
+.btn.theme-b.before-next:hover .text:before, .btn.theme-b.after-next:hover .text:after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTE4LjQwMyAxMEwxNyAxMS40NDRsMTIuMTk0IDEyLjU1NUwxNyAzNi41NTUgMTguNDAzIDM4IDMyIDIzLjk5OXoiLz48L3N2Zz4=);
+}
+
+/* button symbols download */
+.btn.theme-b.before-download .text:before, .btn.theme-b.after-download .text:after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0iIzJkMjMxZSIgZD0iTTIzIDEwdjIwLjk0N0wxNC40NzIgMjJsLTEuNDczIDEuNDZMMjQgMzVsMTEtMTEuNTRMMzMuNTI4IDIyIDI1IDMwLjk0N1YxMGgtMnpNOSAzMy45OTlWMzloMjkuOTk5di00Ljg3NWgtMlYzN2gtMjZ2LTMuMDAxSDl6Ii8+PC9zdmc+);
+}
+
+.btn.theme-b.before-download:hover .text:before, .btn.theme-b.after-download:hover .text:after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTIzIDEwdjIwLjk0N0wxNC40NzIgMjJsLTEuNDczIDEuNDZMMjQgMzVsMTEtMTEuNTRMMzMuNTI4IDIyIDI1IDMwLjk0N1YxMGgtMnpNOSAzMy45OTlWMzloMjkuOTk5di00Ljg3NWgtMlYzN2gtMjZ2LTMuMDAxSDl6Ii8+PC9zdmc+);
+}
+
+/* button symbols new-window */
+.btn.theme-b.before-new-window .text:before, .btn.theme-b.after-new-window .text:after {
+    background-image: url(data:image/svg+xml;base64,CTxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNDggNDgiPjxwYXRoIGZpbGw9IiMyZDIzMWUiIGQ9Ik0zNS41MzYgMTBsLS4xNC4xNC05Ljc5Ni0uMDMtLjAwNiAxLjk3MSA3Ljg0NS4wMjZMMjAgMjUuNjA1IDIxLjM4OCAyNyAzNS4wMSAxMy4zMTRsLjAyNiA4LjI1M0wzNyAyMS41NjFsLS4wMzUtMTEuNDE2LTEuMjg3LS4wMDQtLjE0Mi0uMTQxek0xMCAxMnYyNmgyNlYyMy42MjRoLTJWMzZIMTJWMTRoMTIuMDA5di0ySDEweiIvPjwvc3ZnPg==);
+}
+
+.btn.theme-b.before-new-window:hover .text:before, .btn.theme-b.after-new-window:hover .text:after {
+    background-image: url(data:image/svg+xml;base64,CTxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNDggNDgiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0zNS41MzYgMTBsLS4xNC4xNC05Ljc5Ni0uMDMtLjAwNiAxLjk3MSA3Ljg0NS4wMjZMMjAgMjUuNjA1IDIxLjM4OCAyNyAzNS4wMSAxMy4zMTRsLjAyNiA4LjI1M0wzNyAyMS41NjFsLS4wMzUtMTEuNDE2LTEuMjg3LS4wMDQtLjE0Mi0uMTQxek0xMCAxMnYyNmgyNlYyMy42MjRoLTJWMzZIMTJWMTRoMTIuMDA5di0ySDEweiIvPjwvc3ZnPg==);
+}
+
+/* button symbols write */
+.btn.theme-b.before-write .text:before, .btn.theme-b.after-write .text:after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0iIzJkMjMxZSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMjcuNDM4IDE2Ljc0bC0xNi4yMyAxNi4yMjkuMTg1IDMuMzg4IDMuMzg5LjE4NSAxNi4xNy0xNi4xNy0zLjUxNC0zLjYzMnptMS40MTQtMS40MTVsMy41MTQgMy42MzIgNC4wOTItNC4wOTEtMy41NzMtMy41NzMtNC4wMzMgNC4wMzJ6bTQuMDMzLTYuODZsNi40MDEgNi40LTIzLjcyMiAyMy43MjItNi4wNy0uMzMtLjMzLTYuMDcxIDIzLjcyLTIzLjcyMnoiIC8+PC9zdmc+);
+}
+
+.btn.theme-b.before-write:hover .text:before, .btn.theme-b.after-write:hover .text:after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMjcuNDM4IDE2Ljc0bC0xNi4yMyAxNi4yMjkuMTg1IDMuMzg4IDMuMzg5LjE4NSAxNi4xNy0xNi4xNy0zLjUxNC0zLjYzMnptMS40MTQtMS40MTVsMy41MTQgMy42MzIgNC4wOTItNC4wOTEtMy41NzMtMy41NzMtNC4wMzMgNC4wMzJ6bTQuMDMzLTYuODZsNi40MDEgNi40LTIzLjcyMiAyMy43MjItNi4wNy0uMzMtLjMzLTYuMDcxIDIzLjcyLTIzLjcyMnoiIC8+PC9zdmc+);
+}
+
+/* button symbols circle-plus */
+.btn.theme-b.before-circle-plus .text:before, .btn.theme-b.after-circle-plus .text:after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCA0OCA0OCI+IDxkZWZzPiA8cGF0aCANCiBmaWxsPSIjZmZmZmZmIiBpZD0iYSIgZD0iTTI0IDQxYy05LjM4OCAwLTE3LTcuNjEyLTE3LTE3UzE0LjYxMiA3IDI0IDdzMTcgNy42MTIgMTcgMTctNy42MTIgMTctMTcgMTdtMC0yYy04LjI4NCAwLTE1LTYuNzE2LTE1LTE1IDAtOC4yODQgNi43MTYtMTUgMTUtMTUgOC4yODQgMCAxNSA2LjcxNiAxNSAxNSAwIDguMjg0LTYuNzE2IDE1LTE1IDE1em0tLjk5OS0yNXY5SDE0djJoOS4wMDF2OUgyNXYtOWg5di0yaC05di05aC0xLjk5OXoiLz4gPC9kZWZzPiA8dXNlIGZpbGw9IiMyZDIzMWUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgeGxpbms6aHJlZj0iI2EiLz4gPC9zdmc+);
+}
+
+.btn.theme-b.before-circle-plus:hover .text:before, .btn.theme-b.after-circle-plus:hover .text:after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCA0OCA0OCI+IDxkZWZzPiA8cGF0aCANCiBmaWxsPSIjMmQyMzFlIiBpZD0iYSIgZD0iTTI0IDQxYy05LjM4OCAwLTE3LTcuNjEyLTE3LTE3UzE0LjYxMiA3IDI0IDdzMTcgNy42MTIgMTcgMTctNy42MTIgMTctMTcgMTdtMC0yYy04LjI4NCAwLTE1LTYuNzE2LTE1LTE1IDAtOC4yODQgNi43MTYtMTUgMTUtMTUgOC4yODQgMCAxNSA2LjcxNiAxNSAxNSAwIDguMjg0LTYuNzE2IDE1LTE1IDE1em0tLjk5OS0yNXY5SDE0djJoOS4wMDF2OUgyNXYtOWg5di0yaC05di05aC0xLjk5OXoiLz4gPC9kZWZzPiA8dXNlIGZpbGw9IiMyZDIzMWUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgeGxpbms6aHJlZj0iI2EiLz4gPC9zdmc+);
+}
+
+/** 
+ * button symbols theme-b rise-03
+ */
+/* button symbols download */
+.btn.theme-b.before-download.rise-03 .text:before, .btn.theme-b.after-download.rise-03 .text:after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTIzIDEwdjIwLjk0N0wxNC40NzIgMjJsLTEuNDczIDEuNDZMMjQgMzVsMTEtMTEuNTRMMzMuNTI4IDIyIDI1IDMwLjk0N1YxMGgtMnpNOSAzMy45OTlWMzloMjkuOTk5di00Ljg3NWgtMlYzN2gtMjZ2LTMuMDAxSDl6Ii8+PC9zdmc+);
+}
+
+.btn.theme-b.before-download.rise-03:hover .text:before, .btn.theme-b.after-download.rise-03:hover .text:after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTIzIDEwdjIwLjk0N0wxNC40NzIgMjJsLTEuNDczIDEuNDZMMjQgMzVsMTEtMTEuNTRMMzMuNTI4IDIyIDI1IDMwLjk0N1YxMGgtMnpNOSAzMy45OTlWMzloMjkuOTk5di00Ljg3NWgtMlYzN2gtMjZ2LTMuMDAxSDl6Ii8+PC9zdmc+);
+}
+
+/* button symbols write */
+.btn.theme-b.before-write.rise-03 .text:before, .btn.theme-b.after-write.rise-03 .text:after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMjcuNDM4IDE2Ljc0bC0xNi4yMyAxNi4yMjkuMTg1IDMuMzg4IDMuMzg5LjE4NSAxNi4xNy0xNi4xNy0zLjUxNC0zLjYzMnptMS40MTQtMS40MTVsMy41MTQgMy42MzIgNC4wOTItNC4wOTEtMy41NzMtMy41NzMtNC4wMzMgNC4wMzJ6bTQuMDMzLTYuODZsNi40MDEgNi40LTIzLjcyMiAyMy43MjItNi4wNy0uMzMtLjMzLTYuMDcxIDIzLjcyLTIzLjcyMnoiIC8+PC9zdmc+);
+}
+
+.btn.theme-b.before-write.rise-03:hover .text:before, .btn.theme-b.after-write.rise-03:hover .text:after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMjcuNDM4IDE2Ljc0bC0xNi4yMyAxNi4yMjkuMTg1IDMuMzg4IDMuMzg5LjE4NSAxNi4xNy0xNi4xNy0zLjUxNC0zLjYzMnptMS40MTQtMS40MTVsMy41MTQgMy42MzIgNC4wOTItNC4wOTEtMy41NzMtMy41NzMtNC4wMzMgNC4wMzJ6bTQuMDMzLTYuODZsNi40MDEgNi40LTIzLjcyMiAyMy43MjItNi4wNy0uMzMtLjMzLTYuMDcxIDIzLjcyLTIzLjcyMnoiIC8+PC9zdmc+);
+}
+
+/* button symbols next */
+.btn.theme-b.before-next.rise-03 .text:before, .btn.theme-b.after-next.rise-03 .text:after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTE4LjQwMyAxMEwxNyAxMS40NDRsMTIuMTk0IDEyLjU1NUwxNyAzNi41NTUgMTguNDAzIDM4IDMyIDIzLjk5OXoiLz48L3N2Zz4=);
+}
+
+.btn.theme-b.before-next.rise-03:hover .text:before, .btn.theme-b.after-next.rise-03:hover .text:after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTE4LjQwMyAxMEwxNyAxMS40NDRsMTIuMTk0IDEyLjU1NUwxNyAzNi41NTUgMTguNDAzIDM4IDMyIDIzLjk5OXoiLz48L3N2Zz4=);
+}

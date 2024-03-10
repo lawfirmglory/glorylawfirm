@@ -1,0 +1,165 @@
+ /* kr */
+ @font-face {
+    font-family: 'NotoSansKR';
+    font-style: normal;
+    font-weight: 100;
+    src: url(./../../font/NotoSansKR-Thin.otf) format('opentype');
+ }
+ @font-face {
+    font-family: 'NotoSansKR';
+    font-style: normal;
+    font-weight: 350;
+    src: url(./../../font/NotoSansKR-DemiLight.otf) format('opentype');
+ }
+ @font-face {
+    font-family: 'NotoSansKR';
+    font-style: normal;
+    font-weight: 500;
+    src: url(./../../font/NotoSansKR-Medium.otf) format('opentype');
+ }
+ 
+ /* zh-Cn */
+ @font-face {
+    font-family: 'NotoSansSC';
+    font-style: normal;
+    font-weight: 100;
+    src: url(./../../font/NotoSansSC-Thin.otf) format('opentype');
+ }
+ @font-face {
+    font-family: 'NotoSansSC';
+    font-style: normal;
+    font-weight: 400;
+    src: url(./../../font/NotoSansSC-Regular.otf) format('opentype');
+ }
+ @font-face {
+    font-family: 'NotoSansSC';
+    font-style: normal;
+    font-weight: 500;
+    src: url(./../../font/NotoSansSC-Medium.otf) format('opentype');
+ }
+ 
+ /* ja */
+ @font-face {
+    font-family: 'NotoSansJP';
+    font-style: normal;
+    font-weight: 100;
+    src: url(./../../font/NotoSansJP-Thin.otf) format('opentype');
+ }
+ @font-face {
+    font-family: 'NotoSansJP';
+    font-style: normal;
+    font-weight: 400;
+    src: url(./../../font/NotoSansJP-Regular.otf) format('opentype');
+ }
+ @font-face {
+    font-family: 'NotoSansJP';
+    font-style: normal;
+    font-weight: 500;
+    src: url(./../../font/NotoSansJP-Medium.otf) format('opentype');
+ }
+ 
+ /* openSans */
+ @font-face {
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 300;
+    src: url(./../../font/OpenSans-Light.woff) format('woff'),
+         url(./../../font/OpenSans-Light.eot) format('embedded-opentype'),
+         url(./../../font/OpenSans-Light.ttf) format('truetype');
+ }
+ 
+ @font-face {
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(./../../font/OpenSans-Regular.woff) format('woff'),
+         url(./../../font/OpenSans-Regular.eot) format('embedded-opentype'),
+         url(./../../font/OpenSans-Regular.ttf) format('truetype');
+ }
+ 
+ @font-face {
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 600;
+    src: url(./../../font/OpenSans-Semibold.woff) format('woff'),
+         url(./../../font/OpenSans-Semibold.eot) format('embedded-opentype'),
+         url(./../../font/OpenSans-Semibold.ttf) format('truetype');
+ }
+ 
+ @media print {
+     :lang(ko) body,
+     :lang(ko) th,
+     :lang(ko) td,
+     :lang(ko) input,
+     :lang(ko) select,
+     :lang(ko) textarea,
+     :lang(ko) button																				{font-family: 'AppleSDGothicNeo-Regular', 'Malgun Gothic', 'ë§‘ì€ ê³ ë”•', dotum, 'ë‹ì›€', sans-serif;}
+     
+     :lang(en) body,
+     :lang(en) th,
+     :lang(en) td,
+     :lang(en) input,
+     :lang(en) select,
+     :lang(en) textarea,
+     :lang(en) button																				{font-family: Helvetica, Arial, sans-serif;}
+     
+     :lang(zh-CN) body,
+     :lang(zh-CN) th,
+     :lang(zh-CN) td,
+     :lang(zh-CN) input,
+     :lang(zh-CN) select,
+     :lang(zh-CN) textarea,
+     :lang(zh-CN) button																		{font-family: 'Microsoft YaHei', 'SimSun', 'SimHei', sans-serif;}
+     
+     :lang(ja) body,
+     :lang(ja) th,
+     :lang(ja) td,
+     :lang(ja) input,
+     :lang(ja) select,
+     :lang(ja) textarea,
+     :lang(ja) button																				{font-family: Meiryo,'MS PGothic', sans-serif;}
+ }
+ 
+ @media screen {
+     body,
+     th,
+     td,
+     input,
+     select,
+     textarea,
+     button																							{font-family: 'Droid Sans', 'Apple SD Gothic Neo', Tahoma, Dotum, sans-serif;}
+     
+     .desktop:lang(ko) body,
+     .desktop:lang(ko) th,
+     .desktop:lang(ko) td,
+     .desktop:lang(ko) input,
+     .desktop:lang(ko) select,
+     .desktop:lang(ko) textarea,
+     .desktop:lang(ko) button																		{font-weight: 350; font-family: 'NotoSansKR', 'AppleSDGothicNeo-Regular', 'Malgun Gothic', 'ë§‘ì€ ê³ ë”•', dotum, 'ë‹ì›€', sans-serif;}
+     
+     .desktop:lang(en) body,
+     .desktop:lang(en) th,
+     .desktop:lang(en) td,
+     .desktop:lang(en) input,
+     .desktop:lang(en) select,
+     .desktop:lang(en) textarea,
+     .desktop:lang(en) button																		{font-weight: 350; font-family: 'NotoSansKR', Helvetica, Arial, sans-serif;}
+     
+     .desktop:lang(zh-CN) body,
+     .desktop:lang(zh-CN) th,
+     .desktop:lang(zh-CN) td,
+     .desktop:lang(zh-CN) input,
+     .desktop:lang(zh-CN) select,
+     .desktop:lang(zh-CN) textarea,
+     .desktop:lang(zh-CN) button																	{font-weight: 400; font-family: 'OpenSans', 'NotoSansSC', 'NotoSansJP', 'Microsoft YaHei', 'SimSun', 'SimHei', sans-serif;}
+     
+     .desktop:lang(ja) body,
+     .desktop:lang(ja) th,
+     .desktop:lang(ja) td,
+     .desktop:lang(ja) input,
+     .desktop:lang(ja) select,
+     .desktop:lang(ja) textarea,
+     .desktop:lang(ja) button																		{font-weight: 400; font-family: 'OpenSans', 'NotoSansJP', 'NotoSansSC', Meiryo, 'MS PGothic', sans-serif;}
+ }
+ 
+ 
