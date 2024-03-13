@@ -24,14 +24,14 @@ var main = {
 
 
 		mv.realTime = 0; // animFrameTime
-		mv.delay = 7000;
+		mv.delay = 3000;
 		mv.speed = 1000;
 		mv.progress = 0;
 		mv.runningTime = mv.delay;
 		mv.requestAnim;
-		mv.currentTime = 0; // progressbar �쒓컙 �곗궛�� 蹂���
-		mv.currentIdx; // 蹂닿퀬�덈뒗 �щ씪�대뱶 index
-		mv.restartAnim; // �ъ떆�� requestAnim�� 蹂���
+		mv.currentTime = 0; // 
+		mv.currentIdx; //
+		mv.restartAnim; // 
 		mv.slides = Array.from(mv.slide.querySelectorAll('.swiper-slide'));
 		mv.swiper = new Swiper(mv.slide, {
 			observer: true,

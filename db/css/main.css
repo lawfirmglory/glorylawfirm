@@ -253,7 +253,8 @@
   filter:brightness(0.6);
 }
 #mainVisual .bg3 {
-  background-image: url("https://www.dbinc.co.kr/resource/images/main/main_visual03.jpg");
+  background-image: url("../img/sec11-2.jpg");
+  filter:brightness(0.6);
 }
 @media screen and (max-width: 601px) {
   #mainVisual .bg1 {
@@ -263,7 +264,7 @@
     background-image: url("../img/intro-1.jpg");
   }
   #mainVisual .bg3 {
-    background-image: url("https://www.dbinc.co.kr/resource/images/main/main_visual03_m.jpg");
+    background-image: url("../img/sec11-2.jpg");
   }
 }
 

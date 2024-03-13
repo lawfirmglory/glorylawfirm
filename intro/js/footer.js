@@ -4,8 +4,8 @@ footer.innerHTML = `
 			<div class="container">
 			<div class="row">
 			<div class="col-md-7 pr-md-7">
-			<a href="#" class="footer-site-logo d-block mb-4">글로리 법무법인</a>
-			<p style="line-height:180%;">상호 : 법무법인 글로리<br>사업자등록번호 : 604-86-02992<br>대표변호사 : 이아무<br>주소 : 대전광역시 서구 둔산중로 78번길 26, 민석타워 3층 301호<br>대표번호 : 1544-0904(대표번호) / 042-721-0608(형사센터) / 042-721-0606(송무)<br>팩스 : 042-721-0707<br>이메일 : glory@glorylawfirm.kr</p>
+			<a href="#" class="footer-site-logo d-block mb-4"><img src="../intro/img/f_logo.png" style="width:250px;"></a>
+			<p style="line-height:180%;">상호 : 법무법인 글로리<br>사업자등록번호 : 604-86-02992<br>대표변호사 : 이아무<br>주소 : 대전광역시 서구 둔산중로 78번길 26, 민석타워 3층 301호<br>대표번호 : 1544-0904<br>형사센터 : 042-721-0606  / 042-721-0708 / 042-721-0606(송무)<br>팩스 : 042-721-0707<br>이메일 : glory@glorylawfirm.kr</p>
 			</div>
 			<div class="col-md">
 			<h3>카테고리</h3>
