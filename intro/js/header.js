@@ -5,11 +5,25 @@ template.innerHTML = `
 	<!-- logo -->
 	<h2 class="logo">
 		<a href="./index.html">
-			<img src="./intro/img/logo_on.png" alt="법무법인(유한) 글로리" class="basic" />
-			<img src="./intro/img/f_logo.png" alt="" class="white" />
+			<img src="./intro/img/logo_on.png" alt="법무법인(유한) 글로리" class="basic" >
+			<img src="./intro/img/f_logo.png" alt="" class="white"  />
 		</a>
 	</h2>
 
+
+	<style>
+	.basic, .white{
+		width:200px;
+	}
+
+	@media screen and (max-width:500px)
+	{
+		.basic, .white{
+			width:120px !important;
+			height:30px !important;
+		}	
+	}
+	</style>
 	<!-- gnb -->
 	<ul id="gnb">
 
