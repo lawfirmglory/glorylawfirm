@@ -648,7 +648,7 @@ select {
 	color:#000;
 }
 .main-business-wrap .custom_paging .slick-active { 
-	display:block;
+	display:none;
 }
 
 @media screen and (max-width: 1200px) { 
