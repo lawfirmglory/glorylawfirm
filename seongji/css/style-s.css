@@ -1286,7 +1286,7 @@ p {letter-spacing:-1px;}
 	.visual1 > .txt_wrapper > .txt_wrap {width:100%;}
 	.visual1 > .txt_wrapper > .txt_wrap > .company{}
 	.visual1 > .txt_wrapper > .txt_wrap > .logo{margin:35px 0 66px 0}
-	.visual1 > .txt_wrapper > .txt_wrap > .logo .m_logo{width:268px;height:202px;background-image:url('../img/glory-logo-m.png');background-repeat:no-repeat;    background-size: cover;}
+	.visual1 > .txt_wrapper > .txt_wrap > .logo .m_logo{width:268px;height:202px;background-image:url('../img/glory-font.png');background-repeat:no-repeat;    background-size: cover;}
 
 	.visual1 > .txt_wrapper > .txt_wrap > .exp{font-size:24px;}
 	.visual1 > .video_wrap {
