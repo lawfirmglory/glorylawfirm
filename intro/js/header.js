@@ -19,8 +19,8 @@ template.innerHTML = `
 	@media screen and (max-width:500px)
 	{
 		.basic, .white{
-			width:120px !important;
-			height:30px !important;
+			width:164px !important;
+			height:33px !important;
 		}	
 	}
 	</style>
