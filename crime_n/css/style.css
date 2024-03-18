@@ -610,7 +610,7 @@ ul.tab_m_location li.active a { color:#1A1A1A; background:#DFCDA5; }
 .m_location .info { margin-bottom: 50px; }
 .m_location .info::after { content: ''; display: block; clear: both; }
 .m_location .info > * { float: left; height: 350px; }
-.m_location .info .g_info { width: calc(100% - 376px); height: 350px; padding:20px 40px; background: #fff; color: #000; }
+.m_location .info .g_info { width: calc(100% - 376px); height: 400px; padding:20px 40px; background: #fff; color: #000; }
 .m_location .info .g_info .name { font-size: 30px; margin-bottom: 26px; }
 .m_location .info .g_info dl { margin-bottom: 20px; }
 .m_location .info .g_info dl:last-child { margin: 0; }
