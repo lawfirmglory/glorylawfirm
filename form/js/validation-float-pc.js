@@ -63,9 +63,9 @@ $(document).ready(function form_pc(){
 
 
 function dll2(){
-
-    alert("무료 상담 신청을 해주셔서 감사합니다. 빠른 안내 진행드리겠습니다");
      window.karrotPixel.track('SubmitApplication');
+    alert("무료 상담 신청을 해주셔서 감사합니다. 빠른 안내 진행드리겠습니다");
+
     $('#pc_btn').text('신청완료');
     $('#pc_alert').text("신청이 완료 되었습니다.");
    hoa2();
