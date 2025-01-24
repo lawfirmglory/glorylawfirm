@@ -56,12 +56,13 @@ template.innerHTML = `
 	</ul>
 
 	<div class="telBox">
-		<a href="tel:042-721-0606">
-			<dl>
-				<dt>24시간 비밀상담</dt>
-				<dd>042-721-0606</dd>
+		
+			<dl style="margin-bottom:1.7rem;">
+				<dt style="font-weight:bold;">24시간 비밀상담 (송무)</dt>
+				<a href="tel:02-6954-0378" style="cursor:pointer;"><dd style="margin-bottom:0px;line-height:20px;font-size:14px">서울 : 02-6954-0378</dd></a><br>
+				<a href="tel:042-721-0606" style="cursor:pointer;"><dd style="margin-bottom:0px;line-height:20px;font-size:14px;">대전 : 042-721-0606</dd></a>
 			</dl>
-		</a>
+		
 	</div>
 
 	<!-- slide button -->
@@ -120,7 +121,7 @@ template.innerHTML = `
 	<div class="vam">
 		<ul class="list">
 			<li>
-				<a href="tel:042-721-0606" class="link">
+				<a href="tel:042-721-0606" class="link" style="cursor:pointer;">
 					<div class="icon"><img src="./intro/img/quick-icon1.gif" alt=""></div>
 					<div class="text tel">
 						전화 상담
@@ -129,7 +130,7 @@ template.innerHTML = `
 			</li>
 
 			<li>
-				<a href="./consulting.html" class="link ng-online">
+				<a href="./consulting.html" class="link ng-online" style="cursor:pointer;">
 					<div class="icon ng-online"><img src="./intro/img/quick-icon2.gif" alt="" class="ng-online"></div>
 					<div class="text ng-online">
 						온라인<br />상담신청
@@ -138,7 +139,7 @@ template.innerHTML = `
 			</li>
 
 			<!-- <li>
-				<a href="" target="_blank" class="link ng-chat" >
+				<a href="" target="_blank" class="link ng-chat" style="cursor:pointer;">
 					<div class="icon ng-chat"><img src="./intro/img/quick-icon3.gif" alt="" class="ng-chat"></div>
 					<div class="text ng-chat">
 						카카오톡<br />비밀상담
@@ -147,7 +148,7 @@ template.innerHTML = `
 			</li> -->
 
 			<li>
-				<a href="./location.html" class="link">
+				<a href="./location.html" class="link" style="cursor:pointer;">
 					<div class="icon"><img src="./intro/img/quick-icon4.gif" alt=""></div>
 					<div class="text">오시는길</div>
 				</a>
