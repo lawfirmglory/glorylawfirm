@@ -25,7 +25,8 @@ template.innerHTML = `
 	}
 	</style>
 	<!-- gnb -->
-	<ul id="gnb">
+	<ul id="gnb" style="font-family: 'MaruBuri';
+">
 
 <li class="">
 	<a href="./case1.html">경찰・검찰 수사단계</a>
@@ -56,14 +57,20 @@ template.innerHTML = `
 	</ul>
 
 	<div class="telBox">
-		
-			<dl style="margin-bottom:1.7rem;">
-				<dt style="font-weight:bold;">24시간 비밀상담 (송무)</dt>
-				<a href="tel:02-6954-0378" style="cursor:pointer;"><dd style="margin-bottom:0px;line-height:20px;font-size:14px">서울 : 02-6954-0378</dd></a><br>
-				<a href="tel:042-721-0606" style="cursor:pointer;"><dd style="margin-bottom:0px;line-height:20px;font-size:14px;">대전 : 042-721-0606</dd></a>
-			</dl>
-		
-	</div>
+  <dl style="margin-bottom:1.7rem;">
+    <dt style="font-weight:bold;">24시간 비밀상담 (송무)</dt>
+    <a href="tel:02-6954-0378" style="cursor:pointer;">
+      <dd class="tel-seoul" style="margin-bottom:0px;line-height:20px;font-size:15px;font-family: 'MaruBuriBold';">
+        서울 : 02-6954-0378
+      </dd>
+    </a><br>
+    <a href="tel:042-721-0606" style="cursor:pointer;">
+      <dd class="tel-daejeon" style="margin-bottom:0px;line-height:20px;font-size:15px;font-family: 'MaruBuriBold';">
+        대전 : 042-721-0606
+      </dd>
+    </a>
+  </dl>
+</div>
 
 	<!-- slide button -->
 	<div id="slide-btn">
@@ -119,11 +126,11 @@ template.innerHTML = `
 
 <div id="quickmenu">
 	<div class="vam">
-		<ul class="list">
+		<ul class="list" style="font-family: 'NanumBarunGothicBold';">
 			<li>
 				<a href="tel:042-721-0606" class="link" style="cursor:pointer;">
 					<div class="icon"><img src="./intro/img/quick-icon1.gif" alt=""></div>
-					<div class="text tel">
+					<div class="text tel" >
 						전화 상담
 					</div>
 				</a>
