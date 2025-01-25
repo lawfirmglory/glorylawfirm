@@ -239,6 +239,18 @@ function hoa2(){
     //     $('#pc_btn').css({cursor:"default"});        
     // }
  }
+
+
+  $(document).ready(function() {
+    function togglePhones() {
+      $(".tel-seoul").fadeIn(1000).delay(2000).fadeOut(1000, function() {
+        $(".tel-daejeon").fadeIn(1000).delay(2000).fadeOut(1000, togglePhones);
+      });
+    }
+    $(".tel-daejeon").hide(); // 초기 상태에서 대전 숨김
+    togglePhones(); // 애니메이션 시작
+  });
+
   
 
 $(function(){
